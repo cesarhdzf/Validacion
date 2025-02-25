@@ -76,6 +76,7 @@ function validar(form) {
         return false;
     }
 
-    // Si todo es válido
+    // Si todo es válido, muestra una alerta de éxito
+    alert("¡Formulario enviado correctamente!");
     return true;
 }
